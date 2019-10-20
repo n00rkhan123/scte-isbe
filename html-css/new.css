@@ -1,0 +1,347 @@
+/* Fonts --- START */
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-ExtraLightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-ExtraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-ThinItalic.ttf") format("truetype");
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-LightItalic.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-SemiBoldItalic.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-MediumItalic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-BlackItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-ExtraBoldItalic.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url("/static/fonts/Montserrat-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+  }
+
+  
+  /* Fonts --- END */
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  margin:0;
+  padding:0;
+  
+  }
+  .montserrat {
+    font-family: "Montserrat", sans-serif;
+  }
+  .pdr-direct-page header,.pdr-direct-page footer{
+    display:none!important
+  }
+
+  /* cover css */
+.main{
+    background-image: url(../assects/b2headerslider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    animation-name: noor;
+    animation-duration: 9s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function:step-end ;
+}
+@keyframes noor{
+    0%{
+        background-image: url(../assects/b4.jpg);
+    }
+    50%{
+        background-image: url(../assects/b3headerslider.jpg);
+    }
+    70%{
+      background-image: url(../assects/b2headerslider.jpg);
+    }
+
+}
+#noor1{
+  display: none;
+}
+.main .main-1{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    height: 70px;
+    padding-top: 25px;
+    opacity: 0.6;
+    
+
+}
+
+.main-3 ul{
+   
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.main .main-4{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.main .main-btn1{
+    color: white;
+    border:1px solid white;
+    background-color:transparent!important;
+}
+.main .main-btn2{
+    color: white;
+    background-color: #f17a28!important ;
+    
+}
+
+/* input and heading */
+.main-n{
+   
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-top: 100px;
+    margin-top: 100px;
+  
+   
+}
+.main-n h1{
+    color: blanchedalmond;
+}
+.main-n input{
+    color: blanchedalmond;
+    background-color:black;
+    width:650px;
+    height: 65px;
+    text-align: center;
+    border: transparent;
+    opacity: 0.8;
+   margin-top: 80px;
+}
+.main-n p{
+    color: white;
+    margin-top: 35px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.main-n .picdown{
+    margin-top:200px;
+}
+
+/*  text on map */
+.noora{
+
+ 
+   text-align: center;
+   margin-top: 180px;
+   margin-bottom: 100px;
+   
+   
+   
+}
+.noora .noora1{
+margin-top: 40px;
+opacity: 0.7;
+
+}
+
+
+
+/* map picture and button */
+.mainsec{
+    background-image: url(../assects/map.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+   
+    
+}
+.mainsec ul{
+    margin-top:200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;   
+}
+.mainsec .btn{
+
+  color: white;
+  padding: 15px;
+}
+.mainsec .btn-noor1{
+
+  background-color: #f17a28;
+  margin-right: 10px;
+}
+.mainsec .btn-noor2{
+
+  background-color: #bfcd31;
+  margin-right: 10px;
+}
+.mainsec .btn-noor3{
+  background-color: #54585a ;
+  margin-right: 10px;
+}
+ .mainsec .btn-noor{
+  margin-right: 10px;
+}
+
+/* picture and whats now?? */
+
+.list-itmss ul{
+  display: flex;
+  flex-direction: column;
+
+align-items: center;
+list-style: none;
+padding:50px;
+}
+.list-itmss p{
+  
+  margin-top: 70px;
+  font-size: 50px;
+  opacity: 0.7;
+}
+
+/* The slideshow */
+.mainseccc{
+ 
+  background-color: #323b52;
+}
+
+.mainseccc .noora32{
+  
+  display: flex;
+ flex-direction: column;
+ 
+
+ text-align: center;
+}
+.mainseccc .noora32 form{
+  justify-content: center;
+  
+  
+}
+
+
